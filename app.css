@@ -1,0 +1,9 @@
+body {
+    background-color: #44a384
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 200px;
+}
