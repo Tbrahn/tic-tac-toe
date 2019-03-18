@@ -7,3 +7,10 @@ body {
     justify-content: space-around;
     margin: 60px 200px;
 }
+
+button {
+    border: none;
+    background-color: #2b6630;  
+    padding: 4px 30px;
+    text-decoration: none;
+}
