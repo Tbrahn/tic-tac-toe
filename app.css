@@ -2,10 +2,14 @@ body {
     background-color: #44a384
 }
 
+h1 {
+    text-align: center;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
-    margin: 60px 200px;
+    margin: 150px 200px;
 }
 
 button {
