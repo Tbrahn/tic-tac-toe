@@ -4,6 +4,9 @@ var topRightX = document.getElementById("toprightx");
 var middleLeftX = document.getElementById("middleleftx");
 var MiddleX = document.getElementById("middlex");
 var middleRightX = document.getElementById("middlerightx");
+var bottomLeftX = document.getElementById("bottomleftx");
+var bottomMiddleX = document.getElementById("bottommiddlex");
+var bottomRightX = document.getElementById("bottomrightx");
 
 
 topLeftX.addEventListener("click", topLeftFunc);
@@ -35,4 +38,16 @@ function MiddleFunc() {
 
 function middleRightFunc() {
     document.getElementById("middlerightH1").innerHTML = "x";
+}
+
+function bottomLeftFunc() {
+    document.getElementById("bottomleftH1").innerHTML = "x";
+}
+
+function bottomMiddleFunc() {
+    document.getElementById("bottommiddleH1").innerHTML = "x";
+}
+
+function bottomRightFunc() {
+    document.getElementById("bottomrightH1").innerHTML = "x";
 }
