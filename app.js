@@ -15,6 +15,9 @@ topRightX.addEventListener("click", topRightFunc);
 middleLeftX.addEventListener("click", middleLeftFunc);
 MiddleX.addEventListener("click", MiddleFunc);
 middleRightX.addEventListener("click", middleRightFunc);
+bottomLeftX.addEventListener("click", bottomLeftFunc);
+bottomMiddleX.addEventListener("click", bottomMiddleFunc);
+bottomRightX.addEventListener("click", bottomRightFunc);
 
 function topLeftFunc() {
     document.getElementById("topleftH1").innerHTML = "x";
