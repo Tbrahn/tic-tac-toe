@@ -33,8 +33,11 @@ middleX.addEventListener("click", test);
 middleRightX.addEventListener("click", middleRightFunc);
 middleRightX.addEventListener("click", test);
 bottomLeftX.addEventListener("click", bottomLeftFunc);
+bottomLeftX.addEventListener("click", test);
 bottomMiddleX.addEventListener("click", bottomMiddleFunc);
+bottomMiddleX.addEventListener("click", test);
 bottomRightX.addEventListener("click", bottomRightFunc);
+bottomRightX.addEventListener("click", test);
 
 function topLeftFunc() {
     document.getElementById("topleftH1").innerHTML = "x";
@@ -75,12 +78,22 @@ function bottomRightFunc() {
 function test() {
     if(topLeftH1.innerText === "x" && topMiddleH1.innerText === "x" && topRightH1.innerText === "x"){
         alert("you win!");
-        console.log("You win!")
+        console.log("You Win!")
     } else if(middleLeftH1.innerText === "x" && middleH1.innerText === "x" && middleRightH1.innerText === "x"){
-        alert("you win!")
-    }
-    
-    else {
+        alert("You Win!")
+    } else if(bottomLeftH1.innerText === "x" && bottomMiddleH1.innerText === "x" && bottomRightH1.innerText === "x"){
+        alert("You Win!")
+    } else if(bottomLeftH1.innerText === "x" && middleH1.innerText === "x" && topRightH1.innerText === "x"){
+        alert("You Win!")
+    } else if(bottomRightH1.innerText === "x" && middleH1.innerText === "x" && topLeftH1.innerText === "x"){
+        alert("You Win!")
+    } else if(bottomLeftH1.innerText === "x" && middleLeftH1.innerText === "x" && topleftH1.innerText === "x"){
+        alert("You Win!")
+    } else if(topMiddleH1.innerText === "x" && middleH1.innerText === "x" && bottomMiddleH1.innerText === "x"){
+        alert("You Win!")
+    } else if(middleRightH1.innerText === "x" && bottomRightH1.innerText === "x" && topRightH1.innerText === "x"){
+        alert("You Win!")
+    } else {
         console.log("you dont win yet!")
     }
     console.log("test");
