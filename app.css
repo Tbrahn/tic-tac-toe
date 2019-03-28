@@ -4,12 +4,20 @@ body {
 
 h1 {
     text-align: center;
+    height: 50px;
 }
+
+.bigcontainer{
+    display: flex;
+    margin: 0 100px;
+    flex-direction: column;
+}
+
 
 .container {
     display: flex;
     justify-content: space-around;
-    margin: 150px 200px;
+    margin: 50px 200px;
 }
 
 button {
