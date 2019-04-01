@@ -19,6 +19,7 @@ var bottomLeftH1 = document.getElementById("bottomleftH1");
 var bottomMiddleH1 = document.getElementById("bottommiddleH1");
 var bottomRightH1 = document.getElementById("bottomrightH1");
 
+test
 
 topLeftX.addEventListener("click", topLeftFunc);
 topLeftX.addEventListener("click", test);
